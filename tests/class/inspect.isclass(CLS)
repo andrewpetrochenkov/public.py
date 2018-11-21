@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+import inspect
+import public
+
+
+@public.add
+class CLS:
+    pass
+
+
+assert inspect.isclass(CLS)
